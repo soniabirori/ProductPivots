@@ -38,7 +38,7 @@ Here, we’ll rank products within each category based on their price using both
 
 ![RANK() AND DENSE_RANK table](<Queries&Result tables/rank_dense_table.png>)
 
-#### Difference between RANK() and DENSE_RANK():
+### Difference between RANK() and DENSE_RANK():
 
 RANK() leaves gaps when there are ties. For example, if two employees tie for 1st place, the next one gets rank 3.
 
@@ -56,7 +56,7 @@ We’ll retrieve the first 2 products added in each category, based on date_adde
 
 ![Early products table](<Queries&Result tables/early_products_table.png>)
 
-#### Explanation:
+### Explanation:
 
 ROW_NUMBER() assigns a unique number to each row within its partition
 
