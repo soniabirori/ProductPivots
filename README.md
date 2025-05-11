@@ -1,8 +1,8 @@
 # PRODUCT PIVOTS - SQL Window Functions Analysis
 
 ## Team Members
-- Birori Sonia (username: @soniabirori)
-- Stalonne Jabo (username: @Stalonne-Jabo)
+- Birori Sonia 26072 (username: @soniabirori)
+- Stalonne Jabo 27551 (username: @Stalonne-Jabo)
 
 ## ProductPivots
 This repository contains SQL queries and documentation for analyzing a product dataset.
