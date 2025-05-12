@@ -16,7 +16,7 @@ product_id
 - sold_quantity
 - date_added
 
-![Dataset illustration](Results/dataset_illustration.png)
+![Dataset illustration](/Result_tables/dataset_illustration.png)
 
 ## SQL Scripts 
 
@@ -27,16 +27,13 @@ product_id
 ### Task 1: Compare Values 
 We’ll use LAG() and LEAD() to compare price with the previous and next products. This will show whether the price is HIGHER, LOWER, or EQUAL compared to the previous product.
 
-![LAG() AND LEAD() functions](<Queries&Result tables/lag_and_lead.png>)
+![LAG() AND LEAD() functions](/Result_tables/task1_results.png)
 
-![CASE use](<Queries&Result tables/case_returns.png>)
 
 ### Task 2: Ranking Data 
 Here, we’ll rank products within each category based on their price using both RANK() and DENSE_RANK().
 
-![RANK() AND DENSE_RANK()](<Queries&Result tables/rank_and_dense_rank.png>)
-
-![RANK() AND DENSE_RANK table](<Queries&Result tables/rank_dense_table.png>)
+![RANK() AND DENSE_RANK()](/Result_tables/task2_results.png)
 
 #### Difference between RANK() and DENSE_RANK():
 
@@ -46,15 +43,11 @@ DENSE_RANK() doesn't leave gaps. In the same scenario, the next employee would g
 
 ### Task 3: Identifying Top Records
 Now, let’s fetch the top 3 products by sold_quantity in each category.
-![TOP 3](<Queries&Result tables/ranked_products.png>)
-
-![TOP 3 TABLE](<Queries&Result tables/ranked_table.png>)
+![TOP 3](/Result_tables/task3_results.png)
 
 ### Task 4: Finding the Earliest Records
 We’ll retrieve the first 2 products added in each category, based on date_added
-![Early birds in the table](<Queries&Result tables/earliest_products.png>)
-
-![Early products table](<Queries&Result tables/early_products_table.png>)
+![Early birds in the table](/Result_tables/task4_results.png)
 
 #### Explanation:
 
@@ -68,4 +61,4 @@ This shows us the earliest products in each category.
 
 ### Task 5: Aggregation with Window Functions
 Finally, we're calculating the maximum price for products within each category and across all records.
-![Maximum price table for products in each category](<Queries&Result tables/Max_price_table.png>)
+![Maximum price table for products in each category](/Result_tables/task5_results.png)
