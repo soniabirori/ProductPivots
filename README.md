@@ -1,8 +1,8 @@
 # PRODUCT PIVOTS - SQL Window Functions Analysis
 
 ## Team Members
-- Birori Sonia (username: @soniabirori)
-- Stalonne Jabo (username: @Stalonne-Jabo)
+- Birori Sonia 26072 (username: @soniabirori)
+- Stalonne Jabo 27551 (username: @Stalonne-Jabo)
 
 ## ProductPivots
 This repository contains SQL queries and documentation for analyzing a product dataset.
@@ -35,7 +35,7 @@ Here, we’ll rank products within each category based on their price using both
 
 ![RANK() AND DENSE_RANK()](/Result_tables/task2_results.png)
 
-#### Difference between RANK() and DENSE_RANK():
+### Difference between RANK() and DENSE_RANK():
 
 RANK() leaves gaps when there are ties. For example, if two employees tie for 1st place, the next one gets rank 3.
 
@@ -49,7 +49,7 @@ Now, let’s fetch the top 3 products by sold_quantity in each category.
 We’ll retrieve the first 2 products added in each category, based on date_added
 ![Early birds in the table](/Result_tables/task4_results.png)
 
-#### Explanation:
+### Explanation:
 
 ROW_NUMBER() assigns a unique number to each row within its partition
 
